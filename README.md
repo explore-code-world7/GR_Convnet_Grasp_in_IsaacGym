@@ -1,4 +1,5 @@
 The project integrates Antipodal Robotic Grasping into Isaac Gym Environment
+(See version with detailed code modifying history in [link](https://github.com/explore-code-world7/GR_Convnet_Grasp_in_IsaacGym_with_histories))
 
 # Result Display
 
@@ -81,4 +82,3 @@ python franka_cube_stage.py --num_envs 16  --multiple True
 * `--multiple True` means laying multiple objects on table
 * `--test True` means playing totally 100 grasp tests and output average differ, the num_envs is better to be set as 100 in case
 some environmen doesn't grasp successfully and will taken same photo continuously, resulting in invarinant differ in x-axis, y-axis and rotation angle
-
