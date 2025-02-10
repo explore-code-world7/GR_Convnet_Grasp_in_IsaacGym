@@ -4,17 +4,15 @@ The project integrates Antipodal Robotic Grasping into Isaac Gym Environment
 
 * Parallel env, multi-objects
 
-<video src="./video/multi_env_multi_obj.webm"></video>
+<video src="./video/multi_env_multi_obj.mp4"></video>
 
 * single env, single-object
 
-<video src="./video/sing_env_obj.webm"></video>
+<video src="./video/sing_env_obj.mp4"></video>
 
 * single env, multi-object
 
-<video src="./video/single_env_multi_obj.webm"></video>
-
-<video src="./video/multi_env_multi_obj.webm"></video>
+<video src="./video/single_env_multi_obj.mp4"></video>
 
 # Install required packages
 
