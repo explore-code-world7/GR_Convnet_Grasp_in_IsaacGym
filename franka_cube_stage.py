@@ -159,7 +159,7 @@ viewer = gym.create_viewer(sim, gymapi.CameraProperties())
 if viewer is None:
     raise Exception("Failed to create viewer")
 
-asset_root = "../assets"
+asset_root = "./assets"
 
 # create table asset
 # table box的尺寸

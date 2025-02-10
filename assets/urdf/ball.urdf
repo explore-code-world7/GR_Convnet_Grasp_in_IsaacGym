@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<robot name="ball">
+  <link name="ball">
+    <visual>
+    <!-- 视觉参数 -->
+      <origin xyz="0 0 0"/>
+      <geometry>
+        <sphere radius="0.2"/>
+        <!-- <box size='2 1 10'/> -->
+      </geometry>
+      <material name='Cyam'>
+        <color rgba='0 1.0 1.0 1.0'/>
+      </material>
+    </visual>
+    <collision>
+    <!-- 碰撞 -->
+      <!-- 位姿变换：相对偏移，rpy旋转角 -->
+      <origin xyz="0 0 0" rpy = "0 0 0"/>
+      <geometry>
+        <!-- 几何形状为球形 -->
+        <sphere radius="0.2"/>
+      </geometry>
+    </collision>
+    <inertial>
+    <!-- 惯量 -->
+      <mass value="0.5"/>
+      <inertia ixx="0.01" ixy="0.0" ixz="0.0" iyy="0.01" iyz="0.0" izz="0.01"/>
+    </inertial>
+  </link>
+</robot>
