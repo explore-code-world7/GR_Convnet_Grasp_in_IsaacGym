@@ -2,6 +2,8 @@ The project integrates Antipodal Robotic Grasping into Isaac Gym Environment
 
 # Result Display
 
+*  ==please download mp4 under video/ categroy and watch them offline~==
+
 * Parallel env, multi-objects
 
 <video src="./video/multi_env_multi_obj.mp4"></video>
